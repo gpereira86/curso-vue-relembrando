@@ -1,12 +1,16 @@
 <!-- SCRIPT -->
 <script setup>
-  // Variável
-  let exibir = true;  
+  // Variáveis
+  let exibir = false;  
+  let media = 4;  
 </script>
 
 
 <!-- HTML -->
 <template>
     <h1 v-if="exibir">Hello, world!</h1>
-    <h1 v-else>Outro</h1>
+    
+    <p v-if="media >= 7">Aprovado(a)</p>
+    <p v-else-if="media >= 5">Em exame</p>
+    <p v-else>Reprovado(a)</p>
 </template>
