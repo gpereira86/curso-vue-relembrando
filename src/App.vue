@@ -1,15 +1,12 @@
-<!-- Script -->
+<!-- SCRIPT -->
 <script setup>
-  // Variáveis
-  let nome = 'Alice'
-  let idade = 25
-  let numero1 = 10;
-  let numero2 = 5;
-
+  // Importação de componentes
+  // import Exemplo01 from './componentes/Exemplo01interpolacao.vue'
+  import Exemplo02 from './componentes/Exemplo02Condicional.vue'
 </script>
+
 
 <!-- HTML -->
 <template>
-  <p>{{ 'Olá ' + nome + ' você tem ' + idade + ' anos.'}}</p>
-  <p>{{ numero1 + numero2 }}</p>
+  <Exemplo02></Exemplo02>
 </template>
