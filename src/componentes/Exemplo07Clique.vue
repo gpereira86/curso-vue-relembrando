@@ -3,7 +3,7 @@
   
   // Função
   function mensagem() {
-    alert('Trabaqlhando com eventos de clique!');
+    alert('Trabalhando com eventos de clique!');
   }
 
 </script>

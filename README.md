@@ -1,6 +1,9 @@
-# curso-vue
+# Curso Vue - Com Ralf Lima (youtube)
 
-This template should help get you started developing with Vue 3 in Vite.
+
+Material do Curso do Ralf Lima: 
+https://ralflima.com/treinamentos/vuejs3.8/01introducao.php
+
 
 ## Recommended IDE Setup
 
